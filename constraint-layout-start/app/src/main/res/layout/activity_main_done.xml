@@ -95,7 +95,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/settings"
         app:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/settings"
-        app:layout_constraintStart_toEndOf="@+id/labelBarrier"
+        app:layout_constraintStart_toEndOf="@+id/cameraLabel"
         app:layout_constraintTop_creator="1"
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:layout_editor_absoluteX="73dp"
@@ -140,13 +140,6 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="238dp"/>
 
-    <android.support.constraint.Barrier
-        android:id="@+id/labelBarrier"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="end"
-        app:constraint_referenced_ids="cameraLabel,settingsLabel"/>
-
     <EditText
         android:id="@+id/settings"
         android:layout_width="0dp"
@@ -159,7 +152,7 @@
         app:layout_constraintLeft_creator="1"
         app:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/description"
-        app:layout_constraintStart_toEndOf="@+id/labelBarrier"
+        app:layout_constraintStart_toEndOf="@+id/cameraLabel"
         app:layout_constraintTop_creator="1"
         app:layout_constraintTop_toBottomOf="@+id/cameraType"
         app:layout_editor_absoluteX="73dp"
